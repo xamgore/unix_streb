@@ -1,0 +1,9 @@
+[Unit]
+Description=scheduler written on the knee
+
+[Service]
+Type=simple
+ExecStart=/home/mi/work/au_unix/09_classwork/scheduler.sh
+
+[Install]
+WantedBy=multi-user.target
